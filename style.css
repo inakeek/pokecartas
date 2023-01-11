@@ -1,1 +1,68 @@
-/* Aquí va el CSS */
+*{
+    box-sizing:border-box;
+    font-family: sans-serif;
+    transition:all .5s ease-in-out;
+}
+
+.carta{
+    width: 25%;
+    min-width: 250px;
+    max-width: 270px;
+    padding: 15px;
+    float:left;
+    border: 4px;
+    border-color: rgb(233, 233, 0);
+    border-style: solid;
+    border-radius: 5%;
+    height: auto;
+    margin: 15px;
+}
+
+.cabezera{
+    width: 100%;
+    padding: 0%;
+}
+
+.anchoMax{
+    width: 100%;
+    display: inline-block;
+}
+
+.ancho50der{
+    width: 49%;
+    float:right;
+    text-align: right;
+}
+
+.ancho50izq{
+    width: 49%;
+    float:left;
+}
+
+.fuego{
+    background: radial-gradient(rgb(255, 58, 58), rgb(255, 18, 18))
+}
+
+.agua{
+    background-color: blue;
+}
+
+.planta{
+    background-color: green;
+}
+
+.electrico{
+    background-color: gold;
+}
+
+.imagenfondo{
+    width: 100%;
+    background-image:url(/img/pokemon-background.png);
+    background-size: cover;
+    max-height: 250px;
+}
+
+.habilidades{
+    width: 100%;
+    padding-bottom: 60px;
+}
