@@ -5,17 +5,16 @@
 }
 
 .carta{
-    width: 25%;
-    min-width: 250px;
-    max-width: 270px;
+    width: 270px;
     padding: 15px;
     float:left;
-    border: 4px;
+    border: 8px;
     border-color: rgb(233, 233, 0);
     border-style: solid;
-    border-radius: 5%;
+    border-radius: 2%;
     height: auto;
-    margin: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.396), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cabezera{
@@ -26,6 +25,7 @@
 .anchoMax{
     width: 100%;
     display: inline-block;
+    padding: 0%;
 }
 
 .ancho50der{
@@ -40,29 +40,34 @@
 }
 
 .fuego{
-    background: radial-gradient(rgb(255, 58, 58), rgb(255, 18, 18))
+    background: radial-gradient(rgb(255, 132, 132), rgb(255, 18, 18))
 }
 
 .agua{
-    background-color: blue;
+    background: radial-gradient(rgb(166, 166, 255),rgb(56, 56, 255))
 }
 
 .planta{
-    background-color: green;
+    background: radial-gradient(rgb(122, 255, 122),rgb(21, 132, 21))
 }
 
 .electrico{
-    background-color: gold;
+    background: radial-gradient(rgb(255, 255, 131), rgb(209, 172, 22))
 }
 
 .imagenfondo{
     width: 100%;
     background-image:url(/img/pokemon-background.png);
     background-size: cover;
-    max-height: 250px;
+    max-height: 190px;
+    padding: 0%;
+    display: inline-block;
+    overflow: hidden;
 }
 
 .habilidades{
     width: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+    padding-top: 0%;
+    display: inline-block;
 }
